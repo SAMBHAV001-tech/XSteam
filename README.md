@@ -1,3 +1,21 @@
+---
+title: XSteam
+colorFrom: blue
+colorTo: cyan
+sdk: docker
+pinned: false
+---
+
+# XSteam Backend API
+
+Steam Game Reviews Sentiment & Helpfulness Analysis API built with FastAPI.
+
+## Endpoints
+- POST `/predict/sentiment` — Sentiment classification
+- POST `/predict/helpfulness` — Helpfulness prediction
+- GET `/stats` — Model performance stats
+- GET `/docs` — Interactive API documentation
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/gamepad-2.svg" alt="XSteam Logo" width="80" height="80">
   <h1 align="center">XSteam</h1>
