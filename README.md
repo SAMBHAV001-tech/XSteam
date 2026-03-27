@@ -1,7 +1,7 @@
 ---
 title: XSteam
 colorFrom: blue
-colorTo: cyan
+colorTo: indigo
 sdk: docker
 pinned: false
 ---
