@@ -23,6 +23,9 @@ Steam Game Reviews Sentiment & Helpfulness Analysis API built with FastAPI.
     <strong>Decode Every Review. Powered by AI.</strong>
     <br />
     XSteam uses natural language processing and machine learning to analyze Steam game reviews—predicting sentiment, identifying key influential words, and scoring community helpfulness in milliseconds.
+    <br />
+    <br />
+    <strong>Live at: <a href="https://xsteam-six.vercel.app/">https://xsteam-six.vercel.app/</a></strong>
   </p>
 </div>
 
@@ -121,6 +124,10 @@ npm run dev
 ## 🌍 Deployment
 
 XSteam is explicitly engineered to be cloud-agnostic:
+
+**Live Links:**
+- **Frontend Deploy Link:** [https://xsteam-six.vercel.app/](https://xsteam-six.vercel.app/) (or [https://xsteam-git-main-sambhav-das-projects.vercel.app/](https://xsteam-git-main-sambhav-das-projects.vercel.app/))
+- **Backend API Docs:** [https://samd444-xsteam.hf.space/docs](https://samd444-xsteam.hf.space/docs)
 
 - **Frontend (Vercel)**: Simply connect `frontend/` to Vercel. During `npm run build`, the app dynamically points exactly to your Hugging Face space rather than `localhost`, utilizing environment configuration magic.
 - **Backend (Hugging Face Spaces)**: The FastAPI server dynamically binds to the `PORT` environment variable provided by HF Docker instances. Upload the `backend/` directory along with the `requirements.txt` to a blank Hugging Face Docker Space, and it will spin up gracefully.
